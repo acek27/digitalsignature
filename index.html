@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!-- Copyright 2014 Info Tech, Inc. Provided under the MIT license. See LICENSE file for details. -->
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Digital Signature</title>
+    <script src="digitalsign.js"></script>
+</head>
+
+<body class="page">
+<div id="container">
+    <div class="judul">
+        <h1>Digital Signature</h1>
+    </div>
+
+    <div>
+        <section id="sign-and-verify">
+            <div class="upload">
+                <input type="file" id="source-file"/>
+            </div>
+            <div class="containTombol">
+                <button id="sign" class="btn">Tanda Tangan</button>
+                <button id="verify" class="btn">Verifikasi</button>
+            </div>
+        </section>
+    </div>
+
+    <section id="results" class="letak">
+       <p class="isi"> Hasil:</p>
+        <div id="divisi">
+            <div class="card-body">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>File yang tertadatangani</th>
+                        <th>File yang terverifikasi</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr  id="download-links">
+                    <tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+<footer>
+    <div>
+        <div style="text-align: center">
+            <p>Copyright &copy; PS. Sistem Informasi Universitas Jember 2016 </p>
+        </div>
+    </div><!-- .container -->
+</footer><!-- #footer -->
+</html>
